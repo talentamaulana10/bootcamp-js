@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Switch</h1>
+    <script>
+    
+let role = 'guest';
+
+switch (role) {
+    case 'guest':
+        console.log('guest user');
+            break;
+
+    case 'moderator':
+        console.log('moderator user');
+           break;
+           
+     default:
+        console.log('unknown user');
+
+}
+
+if (role === 'guest') console.log('guest');
+else if (role === 'moderator') console.log('moderator');
+else console.log('unknown user');
+    </script>
+</body>
+</html>
